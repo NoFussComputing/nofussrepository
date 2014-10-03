@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.catchuptv.au.sbs" name="SBS CatchUp TV" provider-name="adammw111" version="0.1.1">
-    <requires>
-      <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension library="addon.py" point="xbmc.python.pluginsource">
-      <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-      <platform>all</platform>
-      <minversion>31542</minversion>
-      <summary>SBS CatchUp TV Video Player</summary>
-      <description>Watch latest episodes, sneak peeks, exclusive internet extras and other videos from SBS Online.</description>
-      <disclaimer>You must be within Australia to use watch these videos.[CR]&quot;SBS&quot;, SBS Logos and other works are copyright of their respective owners.</disclaimer>
-    </extension>
-  </addon>
-
 <addon id="repository.nofusscomputing"
         name="No Fuss Computings Addons"
 		version="0.1"
@@ -41,9 +25,6 @@
   version="0.1.1410031838"
   name="No Fuss Confluence"
   provider-name="No Fuss Computing">
-  <requires>
-    <import addon="xbmc.gui" version="5.3.0"/>
-  </requires>
   <extension
     point="xbmc.gui.skin"
     defaultthemename="textures.xbt"

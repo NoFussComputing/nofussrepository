@@ -4,9 +4,6 @@
   version="0.1.1410031838"
   name="No Fuss Confluence"
   provider-name="No Fuss Computing">
-  <requires>
-    <import addon="xbmc.gui" version="5.3.0"/>
-  </requires>
   <extension
     point="xbmc.gui.skin"
     defaultthemename="textures.xbt"
