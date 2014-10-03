@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
 <addon
   id="skin.nofussconfluence"
   version="0.1.1410031838"
@@ -31,4 +30,3 @@
     <platform>all</platform>
   </extension>
 </addon>
-</addons>

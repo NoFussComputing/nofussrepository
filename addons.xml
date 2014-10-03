@@ -36,7 +36,6 @@
 	</extension>
 </addon>
 
-<addons>
 <addon
   id="skin.nofussconfluence"
   version="0.1.1410031838"
@@ -68,5 +67,4 @@
     <platform>all</platform>
   </extension>
 </addon>
-</addons>
 </addons>
