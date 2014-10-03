@@ -17,9 +17,9 @@
 </addon>
 <addon id="repository.nofusscomputing" name="No Fuss Computings Addons" version="0.1" provider-name="NoFussComputing">
 	<extension point="xbmc.addon.repository" name="No Fuss Computings Addons">
-		<info compressed="false">http://raw.github.com/NoFussComputing/nofussrepository/master/addons.xml</info>
-		<checksum>http://raw.github.com/NoFussComputing/nofussrepository/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/NoFussComputing/nofussrepository/master/addons</datadir>
+		<info compressed="false">https://raw.github.com/NoFussComputing/nofussrepository/master/addons.xml</info>
+		<checksum>https://raw.github.com/NoFussComputing/nofussrepository/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/NoFussComputing/nofussrepository/master/addons</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>XBMC Addons provided by No Fuss Computing</summary>
