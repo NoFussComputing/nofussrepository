@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.nofussconfluence"
-       name="No Fuss Confluence Skin"
-       version="0.1"
-       provider-name="NoFussComputing">
-    <requires>
-         <import addon="xbmc.gui" version="5.3.0"/>
+<addon id="repository.nofusscomputing"
+        name="No Fuss Computings Addons"
+		version="0.1"
+		provider-name="NoFussComputing">
+	<requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
-    <extension
-        point="xbmc.gui.skin"
-        defaultthemename="textures.xbt"
-        debugging="false"
-        effectslowdown="0.75">
-        <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
-    </extension>
-</addon>
-<addon id="repository.nofusscomputing" name="No Fuss Computings Addons" version="0.1" provider-name="NoFussComputing">
 	<extension point="xbmc.addon.repository" name="No Fuss Computings Addons">
 		<info compressed="false">https://raw.github.com/NoFussComputing/nofussrepository/master/addons.xml</info>
 		<checksum>https://raw.github.com/NoFussComputing/nofussrepository/master/addons.xml.md5</checksum>
@@ -28,4 +19,38 @@
 		<platform>all</platform>
 	</extension>
 </addon>
+
+<addons>
+<addon
+  id="skin.nofussconfluence"
+  version="0.1.1410031838"
+  name="No Fuss Confluence"
+  provider-name="No Fuss Computing">
+  <requires>
+    <import addon="xbmc.gui" version="5.3.0"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    defaultthemename="textures.xbt"
+    debugging="false"
+    effectslowdown="0.75">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">No Fuss Confluence, a skin inspired by the Default Conluence skin.</summary>
+    <summary lang="en_AU">No Fuss Confluence, a skin inspired by the Default Conluence skin.</summary>
+    <summary lang="en_NZ">No Fuss Confluence, a skin inspired by the Default Conluence skin.</summary>
+    <summary lang="en_US">No Fuss Confluence, a skin inspired by the Default Conluence skin.</summary>
+    <description lang="en">No Fuss Confluence is a skin inspired by the default XBMC Confluence skin. This skin has been customized from features availible in other skins.</description>
+    <description lang="en_AU">No Fuss Confluence is a skin inspired by the default XBMC Confluence skin. This skin has been customized from features availible in other skins.</description>
+    <description lang="en_NZ">No Fuss Confluence is a skin inspired by the default XBMC Confluence skin. This skin has been customized from features availible in other skins.</description>
+    <description lang="en_US">No Fuss Confluence is a skin inspired by the default XBMC Confluence skin. This skin has been customized from features availible in other skins.</description>
+    <disclaimer lang="en">.</disclaimer>
+    <disclaimer lang="en_AU">.</disclaimer>
+    <disclaimer lang="en_NZ">.</disclaimer>
+    <disclaimer lang="en_US">.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+</addons>
 </addons>
