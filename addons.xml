@@ -22,7 +22,7 @@
 
 <addon
   id="skin.nofussconfluence"
-  version="0.1.1410041432"
+  version="0.1.1410041452"
   name="No Fuss Confluence"
   provider-name="No Fuss Computing (credits Team-XBMC)">
   <extension
@@ -34,7 +34,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">No Fuss Confluence, a skin inspired by the Default Conluence skin.</summary>
-	<description lang="en">No Fuss Confluence is a skin inspired by the default XBMC Confluence skin. This skin has been customized from features availible in other skins.</description>
+	<description lang="en">No Fuss Confluence is a skin inspired by the default XBMC Confluence skin. This skin has been customized from features within other skins.</description>
     <disclaimer lang="en">Confluence</disclaimer>
     <platform>all</platform>
   </extension>
