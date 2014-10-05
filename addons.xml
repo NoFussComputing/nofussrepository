@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon id="repository.nofusscomputing"
         name="No Fuss Computings Addons"
@@ -20,16 +20,11 @@
 	</extension>
 </addon>
 
-<addon
-  id="skin.nofussconfluence"
-  version="0.1.1410041452"
-  name="No Fuss Confluence"
-  provider-name="No Fuss Computing (credits Team-XBMC)">
-  <extension
-    point="xbmc.gui.skin"
-    defaultthemename="textures.xbt"
-    debugging="false"
-    effectslowdown="0.75">
+<addon id="skin.nofussconfluence" version="0.1.14100451440" name="No Fuss Confluence" provider-name="No Fuss Computing (credits Team-XBMC)">
+  <requires>
+      <import addon="xbmc.gui" version="4.0.0" />
+  </requires>
+  <extension point="xbmc.gui.skin" defaultthemename="textures.xbt" debugging="false" effectslowdown="0.75">
     <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
   </extension>
   <extension point="xbmc.addon.metadata">
