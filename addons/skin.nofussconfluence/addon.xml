@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.nofussconfluence" version="0.2.1503221447" name="No Fuss Confluence" provider-name="NoFussComputing">
+<addon id="skin.nofussconfluence" version="0.2.1503221750" name="No Fuss Confluence" provider-name="NoFussComputing">
   <extension point="xbmc.gui.skin" defaultthemename="textures.xbt" debugging="false" effectslowdown="0.75">
     <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
   </extension>
