@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.nofussconfluence" version="0.2.1503221750" name="No Fuss Confluence" provider-name="NoFussComputing">
+<addon id="skin.nofussconfluence" version="0.2.1504042038" name="No Fuss Confluence" provider-name="NoFussComputing">
   <extension point="xbmc.gui.skin" defaultthemename="textures.xbt" debugging="false" effectslowdown="0.75">
     <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">No Fuss Confluence, a skin inspired by the Default Conluence skin.</summary>
-	<description lang="en">No Fuss Confluence is a skin inspired by the default XBMC Confluence skin. This skin has been customized from features within other skins.</description>
+	<description lang="en">No Fuss Confluence is a skin inspired by the default XBMC Confluence skin. This skin has been customized from features found within other skins.</description>
     <disclaimer lang="en">-</disclaimer>
     <platform>all</platform>
   </extension>
