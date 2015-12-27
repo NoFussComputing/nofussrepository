@@ -7,4 +7,4 @@ Project home [NFC Addon Wiki](http://nofusscomputing.com/wiki/public/projects/xb
 
 Please select your Kodi Version in the branches, to get the right addon repo.
 
-To install this repo in Kodi (XBMC) please download from [here](https://raw.githubusercontent.com/NoFussComputing/nofussrepository/master/repository.nofusscomputing-0.2.zip)
+To install this repo in Kodi (XBMC) please download from [here](https://raw.githubusercontent.com/NoFussComputing/nofussrepository/master/repository.nofusscomputing.zip)
