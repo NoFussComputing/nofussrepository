@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon id="repository.nofusscomputing"
-        name="No Fuss Computings Addons"
-		version="0.1"
+        name="No Fuss Computings Kodi (XBMC) Addons"
+		version="0.2"
 		provider-name="NoFussComputing">
 	<requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
-	<extension point="xbmc.addon.repository" name="No Fuss Computings Addons">
-		<info compressed="false">https://raw.github.com/NoFussComputing/nofussrepository/master/addons.xml</info>
-		<checksum>https://raw.github.com/NoFussComputing/nofussrepository/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.github.com/NoFussComputing/nofussrepository/master/addons</datadir>
+	<extension point="xbmc.addon.repository"
+		name="No Fuss Computings Addons">
+		<dir minversion="13.0.0">
+			<info compressed="false">https://raw.github.com/NoFussComputing/nofussrepository/Gothem/addons.xml</info>
+			<checksum>https://raw.github.com/NoFussComputing/nofussrepository/Gothem/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/NoFussComputing/nofussrepository/Gothem/addons</datadir>
+		</dir>
+		<dir minversion="15.0.0">
+				<info compressed="true">https://raw.github.com/NoFussComputing/nofussrepository/Isengard/addons.xml</info>
+				<checksum>https://raw.github.com/NoFussComputing/nofussrepository/Isengard/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.github.com/NoFussComputing/nofussrepository/Isengard/addons</datadir>
+				<hashes>true</hashes>
+		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>XBMC Addons provided by No Fuss Computing</summary>
